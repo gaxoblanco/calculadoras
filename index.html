@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Gastos</title>
+</head>
+<body>
+    <div class="container">
+        <div class="inicio">
+            <header class="titulo"><h1>Inicio</h1></header>
+            <form>
+                <h3>Ingreso</h3>
+                <lavel for="inputIngreso">$ </lavel>
+                <input id="inputIngreso" type=Number >
+                <div class="boton">
+                    <button type="button" onclick="ButtonAgregarIngreso()">
+                        agregar
+                    </button>
+                </div>
+
+                <h3>Gasto</h3>
+                <lavel for="inputGasto">$ </lavel>
+                <input id="inputGasto" type="number" >
+                <div class="menuDes">
+                    <button type="button" onclick="MenuDesplegable()"></button>
+                </div>
+                <div class="boton">
+                    <button type="button" onclick="ButtonAgregarIngreso()">
+                        agregar
+                    </button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="./logica.js"></script>
+</body>
+</html>
+
+
